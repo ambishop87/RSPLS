@@ -6,10 +6,12 @@ class Player {
         this.gestures = ["Rock", "Paper", "Scissors", "Lizard","Spock"]
     }
 
-    chooseGesture(); { 
+    chooseGesture(); {
+        console.log("Choose your gesture");
+        this.gestures;
+
 
     }
 
-
 }
-module.exports = Player; 
+module.exports = {Player}

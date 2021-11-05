@@ -34,4 +34,4 @@ class Game extends Player {
 
 
 }
-module.exports = Game
+module.exports = {Game}
