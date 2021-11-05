@@ -1,5 +1,6 @@
-class Human {
-    constructor(human){
+class Human extends Player {
+    constructor(Human){
+        super(Human)
         this.player = ["PlayerOne", "playerTwo"];
         this.score = 0;
         this.selectedgesture = "";

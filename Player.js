@@ -1,5 +1,6 @@
 class Player {
-    constructor(player) {
+    constructor(Player) {
+        super (Player)
         this.player = ["playerOne", "playerTwo"];
         this.score = 0;
         this.selectedGesture = "";

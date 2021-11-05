@@ -1,5 +1,6 @@
-class Ai {
+class Ai extends Player {
     constructor(Ai) {
+        super(Ai)
         this.player = ["playerOne", "playerTwo"];
         this.score = 0;
         this.selectedGesture = "";

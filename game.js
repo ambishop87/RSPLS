@@ -1,6 +1,6 @@
 class Game extends Player {
-    constructor(player) {
-        super(player)
+    constructor(Player) {
+        super(Player)
     // two human player options
     this.playerOne;
     this.playerTwo;
@@ -8,17 +8,12 @@ class Game extends Player {
 
     runGame(){
         this.displayRules();
-        this.chooseGameType();
+        this.choosePlayerType();
     }
 
         displayRules(){
             console.log("Welcome to Rock, Paper, Scissors, Lizard, Spock! \n You may only have two players. \n Choose Single Player to play against computer. \n Choose Multiplayer to play against a friend.");
         }
-
-            chooseGameType(){
-                console.log("Choose game type");
-                prompt( )
-            }
 
             choosePlayerType(){
                 console.log("Choose Player Type");
