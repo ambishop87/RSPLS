@@ -1,9 +1,10 @@
+const { Player } = require("./Player");
+
 class Game extends Player {
     constructor(Player) {
         super(Player)
     // two human player options
-    this.playerOne;
-    this.playerTwo;
+    this.player = ["PlayerOne", "playerTwo"];
 }
 
     runGame(){
@@ -22,6 +23,7 @@ class Game extends Player {
                 const prompt = require("prompt-sync")();
                const input = prompt("Single Player or Multiplayer?");
                console.log('You selected ${input');
+               return userInput;
 
             }
 

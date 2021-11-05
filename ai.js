@@ -7,9 +7,11 @@ class Ai extends Player {
         this.gestures = ["Rock", "Paper", "scissors", "Lizard", "Spock"]
     }
 
-    chooseGesture(); {
+    chooseGesture() {
         console.log("The other player has selected a gesture");
-        this.gestures = Math.floor(Math.random() * 3);
+        this.gestures = Math.floor(Math.random() * 5);
+        console.log(gestures);
+        return gestures;
     }
 }
 
